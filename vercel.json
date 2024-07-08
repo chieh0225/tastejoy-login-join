@@ -3,6 +3,10 @@
     {
       "source": "/",
       "destination": "/src/login.html"
+    },
+    {
+      "source": "/join",
+      "destination": "/src/join.html"
     }
   ]
 }
