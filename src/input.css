@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Noto Sans TC", sans-serif;
+  }
+  .text-1 {
+    font-size: 60px;
+    line-height: 92.67px;
+  }
+  .text-1-mb {
+    font-size: 40px;
+    line-height: 57.92px;
+  }
+  .text-2 {
+    font-size: 28px;
+    line-height: 40.54px;
+  }
+  .text-3 {
+    font-size: 56px;
+    line-height: 81.09px;
+  }
+  .text-3-mb {
+    font-size: 32px;
+    line-height: 46.34px;
+  }
+  .hori-line {
+    width: 448px;
+    height: 1px;
+    border-top: solid #bdb890 1px;
+  }
+  .icon {
+    width: 60px;
+    height: 60px;
+    border: #bdb890 1px solid;
+    border-radius: 50%;
+    padding: 6px;
+  }
+  .bg-white {
+    background: #fffdf6;
+    opacity: 75%;
+  }
+}
